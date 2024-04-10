@@ -18,7 +18,7 @@ describe('Bank manager', () => {
     managerPage.getCustomersDetails().should(t => {
       const customerDetails = t.trim();
       const expectedCustomerName = customerName.trim();
-      expect(customerDetails).to.contain(expectedCustomerName);
+      expect(customerDetails.replace(/\s+/g, ' ').replace('Delete', '')).to.contain(expectedCustomerName);
       });
   });
 });
