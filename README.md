@@ -12,7 +12,7 @@ Requirements:
 **-**
 1. Login as Bank Manager
 2. Search for "CUSTOMER_NAME" customer
-3. Delete "CUSTOMER_NAME"
+3. Delete a customer "CUSTOMER_NAME"
 
 **How to run:**
 1. Open the terminal
